@@ -7,7 +7,7 @@
 
 1. Sistema de Comunicação Digital: Sistema para envio de informações por email. Esse sistema é responsável por enviar o código de protocolo, referente à solicitação de serviço cadastrada, para o servidor (docente ou Técnico Administrativo em Educação), como também é responsável por notificar a gerência de TI acerca do cadastro de uma solicitação de serviço.
 
-<p align=center><img src="https://github.com/arsouza81/Teste/blob/main/verificacao/diagramaContexto.png" alt="Exemplo da imagem"></p>
+<p align=center><img src="https://github.com/arsouza81/TVVS_OrdemServico/blob/main/images/diagramaContexto.png" alt="Diagrama de Contexto"></p>
 
 <br>
 
@@ -18,7 +18,8 @@
 
 ## Servidor
 
-
+<p align=center><img src="https://github.com/arsouza81/TVVS_OrdemServico/blob/main/images/diagramaContainerServidor.png" alt="Diagrama de Container do Servidor"></p>
 
 ## Gerência
 
+<p align=center><img src="https://github.com/arsouza81/TVVS_OrdemServico/blob/main/images/diagramaContainerGerencia.png" alt="Diagrama de Container da Gerencia"></p>

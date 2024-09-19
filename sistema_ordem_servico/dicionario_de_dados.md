@@ -73,7 +73,7 @@
 <td>Funcionalidades restritas</td>
 <td>String</td>
 <td>Funcionalidades do sistema direcionadas para a gerência de TI</td>
-<td> -	</td>
+<td align=center> -	</td>
 <td>É necessário autenticação de usuário para acessar as funcionalidades restritas</td>
 </tr>
 

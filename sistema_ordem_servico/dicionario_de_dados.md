@@ -133,29 +133,101 @@
 <td>Não pode ser vazio</td>
 </tr>
 
-<tr>	<td>	Nome	</td><td>	String	</td><td>	Nome do Servidor	</td><td>	Até 90 caracteres	</td><td>	Não pode ser vazio	</td>	</tr>
+<tr>
+<td>Nome</td>
+<td>String</td>
+<td>Nome do Servidor</td>
+<td>Até 90 caracteres</td>
+<td>Não pode ser vazio</td>
+</tr>
 
-<tr>	<td>	Notificação	</td><td>	Booleano	</td><td>	Status que indica se uma notificação de cadastro de solicitação de serviço foi enviada	</td><td>	true/false	</td><td>	True se a solicitação de serviço foi cadastrada com sucesso	</td>	</tr>
+<tr>
+<td>Notificação</td>
+<td>Booleano</td>
+<td>Status que indica se uma notificação de cadastro de solicitação de serviço foi enviada</td>
+<td>true/false</td>
+<td>True se a solicitação de serviço foi cadastrada com sucesso</td>
+</tr>
 
-<tr>	<td>	Protocolo	</td><td>	String	</td><td>	Código utilizado pelo solicitante para acompanhar a situação da solicitação de serviço	</td><td>	Até 8 caracteres	</td><td>	Deve ser único para cada solcitação de serviço	</td>	</tr>
+<tr>
+<td>Protocolo</td>
+<td>String</td>
+<td>Código utilizado pelo solicitante para acompanhar a situação da solicitação de serviço</td>
+<td>Até 8 caracteres</td>
+<td>Deve ser único para cada solcitação de serviço</td>
+</tr>
 
-<tr>	<td>	Sala	</td><td>	inteiro	</td><td>	Número que identifica a sala	</td><td>	Número inteiro	</td><td>	Não pode ser vazio	</td>	</tr>
+<tr>
+<td>Sala</td>
+<td>inteiro</td>
+<td>Número que identifica a sala</td>
+<td>Número inteiro</td>
+<td>Não pode ser vazio</td>
+</tr>
 
-<tr>	<td>	Senha	</td><td>	String	</td><td>	Senha utilizada pela gerência de TI para acessar as funcionalidades restritas do sistema	</td><td>	Até 255 caracteres	</td><td>	Não pode ser vazio / deve ser <= 8 caracteres / deve ser formada por 1 caractere especial, 1 letra maiúscula, 1 letra minúscula e 1 número	</td>	</tr>
+<tr>
+<td>Senha</td>
+<td>String</td>
+<td>Senha utilizada pela gerência de TI para acessar as funcionalidades restritas do sistema</td>
+<td>Até 255 caracteres</td>
+<td>Não pode ser vazio / deve ser <= 8 caracteres / deve ser formada por 1 caractere especial, 1 letra maiúscula, 1 letra minúscula e 1 número</td>
+</tr>
 
-<tr>	<td>	Servidor	</td><td>	String	</td><td>	O servidor poderá ser um Técnico Administrativo em Educação ou um docente	</td><td>	Até 90 caracteres	</td><td>	Não pode ser vazio	</td>	</tr>
+<tr>
+<td>Servidor</td>
+<td>String</td>
+<td>O servidor poderá ser um Técnico Administrativo em Educação ou um docente</td>
+<td>Até 90 caracteres</td>
+<td>Não pode ser vazio</td>
+</tr>
 
-<tr>	<td>	Siape	</td><td>	inteiro	</td><td>	Código que identifica cada servidor	</td><td>	Número inteiro	</td><td>	Não pode ser vazio	</td>	</tr>
+<tr>
+<td>Siape</td>
+<td>inteiro</td>
+<td>Código que identifica cada servidor</td>
+<td>Número inteiro</td>
+<td>Não pode ser vazio</td>
+</tr>
 
-<tr>	<td>	Solicitação de Serviço	</td><td>	String	</td><td>	Ato em que o servidor realiza um pedido de serviços de instalação e manutenção em equipamentos e estruturas de TI	</td><td>	Até 255 caracteres	</td><td>	Não pode ser vazio	</td>	</tr>
+<tr>
+<td>Solicitação de Serviço</td>
+<td>String</td>
+<td>Ato em que o servidor realiza um pedido de serviços de instalação e manutenção em equipamentos e estruturas de TI</td>
+<td>Até 255 caracteres</td>
+<td>Não pode ser vazio</td>	
+</tr>
 
-<tr>	<td>	Status	</td><td>	String	</td><td>	Situação em que se encontra a solicitação de serviço	</td><td>	em andamento / concluída / pendente / descartada	</td><td>	Não pode ser vazio	</td>	</tr>
+<tr>
+<td>Status</td>
+<td>String</td>
+<td>Situação em que se encontra a solicitação de serviço</td>
+<td>em andamento / concluída / pendente / descartada</td>
+<td>Não pode ser vazio</td>	
+</tr>
 
-<tr>	<td>	Subgerente de TI	</td><td>	String	</td><td>	Técnico Administrativo em Educação que ocupa cargo de Subgerência de TI	</td><td>	Até 90 caracteres	</td><td>	Não pode ser vazio	</td>	</tr>
+<tr>
+<td>Subgerente de TI</td>
+<td>String</td>
+<td>Técnico Administrativo em Educação que ocupa cargo de Subgerência de TI</td>
+<td>Até 90 caracteres</td>
+<td>Não pode ser vazio</td>	
+</tr>
 
-<tr>	<td>	TAE	</td><td>	String	</td><td>	Abreviatura para Técnico Administrativo em Educação	</td><td>	Técnico Administrativo em Educação	</td><td>	Não pode ser vazio	</td>	</tr>
+<tr>
+<td>TAE</td>
+<td>String</td>
+<td>Abreviatura para Técnico Administrativo em Educação</td>
+<td>Técnico Administrativo em Educação</td>
+<td>Não pode ser vazio</td>	
+</tr>
 
-<tr>	<td>	Técnico Administrativo em Educação	</td><td>	String	</td><td>	Servidor que exerce a função de técnico especialista	</td><td>	Até 90 caracteres	</td><td>	Não pode ser vazio	</td>	</tr>
+<tr>
+<td>Técnico Administrativo em Educação</td>
+<td>String</td>
+<td>Servidor que exerce a função de técnico especialista</td>
+<td>Até 90 caracteres</td>
+<td>Não pode ser vazio</td>	
+</tr>
 
 <tr>
 <td>TI</td>

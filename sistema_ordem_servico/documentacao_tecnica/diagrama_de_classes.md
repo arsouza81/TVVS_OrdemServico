@@ -1,4 +1,4 @@
-# Diagrama de Classe - Ordem de Serviço
+# DIAGRAMA DE CLASSE - ORDEM DE SERVIÇO
 
 <p align=justify>O Diagrama de Classe é uma das principais ferramentas da modelagem de software dentro da Programação Orientada a Objetos (POO). Ele oferece uma representação visual das classes que compõem um sistema, bem como das relações e interações entre elas. Sua função principal é auxiliar na organização e estruturação do código, proporcionando uma visão clara de como os objetos do sistema se relacionam e colaboram para realizar as funcionalidades desejadas.</p>
 <p align=justify>No projeto do software Ordem de Serviço, o Diagrama de Classe serviu como um mapa que orientou o desenvolvimento, ajudando a equipe a entender a estrutura e a lógica interna do sistema. Ele definiu os atributos, métodos e associações das classes, facilitando a identificação de responsabilidades e promovendo um design mais coeso e modular. Além disso, o Diagrama de Classe foi fundamental para a comunicação entre desenvolvedores, arquitetos de software e demais stakeholders, garantindo que todos tenham um entendimento comum da arquitetura do sistema.</p>

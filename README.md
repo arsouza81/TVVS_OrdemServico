@@ -1,13 +1,45 @@
 # TVVS_OrdemServico
 
-A organização do projeto Ordem de serviço será realizada da seguinte forma:
+<h1>Organização do Projeto Ordem de Serviço</h1>
 
-- A documentação técnica, o backlog do produto, o dicionário de dados, o código fonte, bem como os exemplos de uso estarão reunidos e organizados sob o diretório do sistema Ordem de Serviço. 
-- A verificação dos artefatos e a validação de usabilidade virão em diretórios distintos ao do sistema (na raiz principal do repositório).
-- Os diagramas do projeto estarão reunidos sob o diretório da documentação técnica.
-- As User Stories estarão disponíveis na guia Projects.
+<h2>Backlog do Produto</h2>
+<p>Tem como objetivo facilitar o gerenciamento de requisitos e o desenvolvimento do sistema de Ordem de Serviços.</p>
+<p>Está disponível em: <a href="https://github.com/arsouza81/TVVS_OrdemServico/blob/main/sistema_ordem_servico/backlog.md">Backlog do Produto</a></p>
 
-<h1>Manual de Instalação e Configuração do Projeto OS</h1>
+<h2>Dicionário de Dados</h2>
+<p>Atua como um guia centralizado que documenta todos os elementos de dados do sistema, como tabelas, campos, tipos de dados e relações entre eles.</p>
+<p>Está disponível em: <a href="https://github.com/arsouza81/TVVS_OrdemServico/blob/main/sistema_ordem_servico/dicionario_de_dados.md">Dicionário de Dados</a></p>
+
+<h2>Exemplos de Uso</h2>
+<p>Contém exemplos de uso de funcionalidades destinadas aos servidores e à Gerência de TI do ICET. Nesse documento encontraremos as relações entre as telas do Sistema Ordem de Serviço, 
+  bem como os diagramas de atividades correspondentes às funcionalidades abordadas.</p>
+<p>Está disponível em: <a href="https://github.com/arsouza81/TVVS_OrdemServico/blob/main/sistema_ordem_servico/exemplos_de_uso.md">Exemplos de Uso</a></p>
+
+<h2>Diagrama de Classes</h2>
+<p>O Diagrama de Classe oferece uma representação visual das classes que compõem um sistema, bem como das relações e interações entre elas.</p>
+<p>Está disponível em: <a href="https://github.com/arsouza81/TVVS_OrdemServico/blob/main/sistema_ordem_servico/documentacao_tecnica/diagrama_de_classes.md">Diagrama de Classes</a></p>
+
+<h2>Modelo C4</h2>
+<p>Nesse documento podemos encontrar duas visões do Sistema Ordem de Serviço, uma visão mais ampla, Nível de Contexto, destacando a posição do sistema e a interação com o ambiente externo, 
+  e outra visão simplificada da arquitetura do sistema, Nível de Container, destacando as tecnologias utilizadas e a maneira como ocorre a comunicação entre seus componentes.</p>
+<p>Está disponível em: <a href="https://github.com/arsouza81/TVVS_OrdemServico/blob/main/sistema_ordem_servico/documentacao_tecnica/modelo_c4.md">Modelo C4</a></p>
+
+<h2>Código Fonte</h2>
+<p>O Código fonte é um conjunto de arquivos de texto contendo todas as instruções que devem ser executadas, expressas de forma ordenada numa linguagem de programação. A linguagem utilizada nesse projeto foi o C#.</p>
+<p>Está disponível em: <a href="https://github.com/arsouza81/TVVS_OrdemServico/tree/main/sistema_ordem_servico/codigo_fonte">Código Fonte</a></p>
+<p>O Manual de Instalação e configuração do Projeto Ordem de Serviço encontra-se no arquivo <a href="https://github.com/arsouza81/TVVS_OrdemServico/edit/main/README.md">readme</a> do projeto.</p>
+
+<h2>Atividades de Verificação</h2>
+<p>Essa etapa será responsável por realizar atividades de verificação para identificar e documentar os defeitos encontrados nos artefatos do software Ordem de Serviço.</p>
+<p>Está disponível em: <a href="https://github.com/arsouza81/TVVS_OrdemServico/tree/main/verificacao">Atividades de Verificação</a></p>
+
+<h2>Atividades de Validação</h2>
+<p>Essa etapa será responsável por realizar atividades de validação para identificar e documentar, utilizando o método de avaliação Heurística, os problemas de usabilidade encontrados no Sistema Ordem de Serviço.</p>
+<p>Está disponível em: <a href="https://github.com/arsouza81/TVVS_OrdemServico/tree/main/validacao">Atividades de Validação</a></p>
+<br>
+<br>
+
+<h1>Manual de Instalação e Configuração do Projeto Ordem de Serviço</h1>
 
   <h2>1. Requisitos de Sistema</h2>
   <p>Antes de iniciar, certifique-se de que seu sistema atenda aos seguintes requisitos:</p>

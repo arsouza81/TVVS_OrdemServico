@@ -97,7 +97,7 @@
 
   <h3>Imagem do site</h3>
   <p>Abaixo está uma imagem de como o site do GitHub aparecerá para você ao seguir essas instruções:</p>
-  <img src="./images/images-for-readme/print1.png" alt="Print da tela do repositório no GitHub">
+  <img src="./images/images-for-readme/print.png" alt="Print da tela do repositório no GitHub">
 
   <h2>5. Abrindo o Projeto no Visual Studio</h2>
 <p>Agora que o projeto já foi baixado, o próximo passo é abri-lo no Visual Studio. Siga as instruções abaixo:</p>

@@ -1,6 +1,6 @@
 # Avaliação Heurística
 
-Autor: Alicia Caldeira da Silva / Diandre Pires Bruce
+Autoras: Alicia Caldeira da Silva / Diandre Pires Bruce
 
 Descrição: Essas heurísticas são amplamente utilizadas para realizar avaliações de usabilidade em projetos de design de interfaces, garantindo que os sistemas sejam intuitivos, eficientes e satisfatórios para os usuários.
 

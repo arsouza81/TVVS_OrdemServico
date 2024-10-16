@@ -11,7 +11,7 @@ Para cada problema identificado, os seguintes pontos foram observados:
 - **Recomendações** de solução.
 
 ## Consolidação dos Resultados
-Na validação de usabilidade do sistema Ordem de Serviço, foram identificados um total de 16 problemas de usabilidade, todos documentados em um modelo de tabela passado pelo orientador em sala. Os problemas encontrados e documentados estão disponíveis para visualização pública, é indicado que sejam utilizados os filtros: autor > brucediandre e autor > AliciaCaldeira27, para que sejam visualizados as issues do processo de validação de usabilidade, produzidas, respectivamente, pelas avaliadoras Diandre Bruce e Alicia Caldeira. Os problemas de usabilidade estão disponíveis através do seguinte endereço eletrônico: <a href="https://github.com/arsouza81/TVVS_OrdemServico/issues">Problemas de usabilidade do Sistema Ordem de Serviço</a>.
+<p align="justify">Na validação de usabilidade do sistema Ordem de Serviço, foram identificados um total de 16 problemas de usabilidade, todos documentados em um modelo de tabela passado pelo orientador em sala. Os problemas encontrados e documentados estão disponíveis para visualização pública, é indicado que sejam utilizados os filtros: autor > AliciaCaldeira27 (issues de 1 a 8) e autor > brucediandre (issues de 9 a 16), para que sejam visualizados as issues do processo de validação de usabilidade, produzidas, respectivamente, pelas avaliadoras Alicia Caldeira e Diandre Bruce. Os problemas de usabilidade estão disponíveis, na íntegra, através do seguinte endereço eletrônico: <a href="https://github.com/arsouza81/TVVS_OrdemServico/issues">Problemas de usabilidade do Sistema Ordem de Serviço</a>.</p>
 
 ### Tabela 1 - Quantidade de heurísticas violadas
 

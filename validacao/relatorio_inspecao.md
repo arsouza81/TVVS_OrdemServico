@@ -203,26 +203,33 @@ O processo de inspeção foi dividido em três fases:
 - **Heurística Violada:** H2 - Correspondência entre o sistema e o mundo real.
 - **Grau de Severidade:** Média.
 - **Recomendação:** Incluir uma breve explicação ou exemplo do termo "SIAPE" para melhorar a compreensão.
+---
+
 
 - **Local do Problema:** Formulário de submissão.
 - **Descrição:** Falta de opção para cancelar ou editar informações antes de enviar.
 - **Heurística Violada:** H3 - Controle e liberdade do usuário.
 - **Grau de Severidade:** Alta.
 - **Recomendação:** Adicionar um botão "Cancelar" e permitir ao usuário editar as informações antes do envio.
+---
+
 
 - **Local do Problema:** Formulário de submissão.
 - **Descrição:** Não há validação dos campos obrigatórios, permitindo o envio de dados incompletos ou incorretos.
 - **Heurística Violada:** H5 - Prevenção de erros.
 - **Grau de Severidade:** Alta.
 - **Recomendação:** Implementar validação nos campos de entrada, como verificação de formato de email.
+---
+
 
 - **Local do Problema:** Sistema de feedback.
 - **Descrição:** O sistema não exibe mensagens de erro ao encontrar um problema nos dados enviados.
 - **Heurística Violada:** H9 - Ajudar os usuários a reconhecerem, diagnosticarem e corrigirem erros.
 - **Grau de Severidade:** Alta.
 - **Recomendação:** Adicionar mensagens de erro claras e específicas, informando o usuário sobre o campo que precisa ser corrigido.
-
 ---
+
+
 
 ### Tela 2
 - **Local do Problema:** Campos de email e senha.
@@ -230,6 +237,8 @@ O processo de inspeção foi dividido em três fases:
 - **Heurística Violada:** H5 - Prevenção de erros.
 - **Grau de Severidade:** Alta.
 - **Recomendação:** Inserir exemplos ou placeholders nos campos de email e senha para orientar o preenchimento correto.
+- 
+---
 
 - **Local do Problema:** Sistema de feedback.
 - **Descrição:** O sistema não informa o usuário sobre erros ao inserir dados incorretos.
@@ -245,6 +254,8 @@ O processo de inspeção foi dividido em três fases:
 - **Heurística Violada:** H3 - Controle e liberdade do usuário.
 - **Grau de Severidade:** Alta.
 - **Recomendação:** Incluir um botão de "Voltar" para melhorar a navegação do usuário entre as telas do sistema.
+---
+
 
 - **Local do Problema:** Feedback de dados.
 - **Descrição:** Quando não há registros de solicitações, o sistema não exibe nenhuma mensagem informando o usuário.

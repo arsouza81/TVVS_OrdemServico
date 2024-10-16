@@ -23,7 +23,7 @@ Além disso, também foi utilizada a Taxonomia definida por Shull (1998), a part
 - Fato Incorreto
 - Informação Estranha
 
-Na verificação do sistema Ordem de Serviço, foram identificados um total de 10 defeitos entre os artefatos citados, todos documentados em um modelo de tabela passado pelo orientador em sala. Os defeitos encontrados e documentados estão disponíveis para visualização pública e podem ser acessados através do seguinte endereço eletrônico:
+Na verificação do sistema Ordem de Serviço, foram identificados um total de 10 defeitos entre os artefatos citados, todos documentados em um modelo de tabela passado pelo orientador em sala. Os defeitos encontrados e documentados estão disponíveis para visualização pública, é indicado que seja utilizado o filtro: autor > Kássia Ramos, para que sejam visualizados as issues do processo de verificação, os defeitos estão disponíveis através do seguinte endereço eletrônico:
 [Defeitos do Sistema Ordem de Serviço](https://github.com/arsouza81/TVVS_OrdemServico/issues)
 
 Abaixo, também disponibilizamos a tabela das falhas que foram referenciadas nas tabelas do defeito, para auxiliar no processo de análise do leitor:

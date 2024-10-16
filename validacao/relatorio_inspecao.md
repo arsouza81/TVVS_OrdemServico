@@ -157,7 +157,7 @@ ________________________________________________________________________________
 
 # Relatório de Validação de Software
 
-### Avaliadora 2: Técnica em Informática
+### Avaliadora 2
 
 **Nome:** Diandre Pires Bruce
 

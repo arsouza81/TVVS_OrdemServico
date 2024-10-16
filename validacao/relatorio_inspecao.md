@@ -2,6 +2,8 @@
 
 ## Avaliadora 1
 
+**Nome:** Alicia Caldeira da Silva
+
 ## Objetivos e Escopo da Avaliação
 
 O objetivo desta avaliação é realizar uma inspeção heurística do sistema, analisando suas interfaces e fluxos de interação, identificando problemas de usabilidade e violações de heurísticas de Nielsen. O escopo da avaliação abrange a verificação de sete telas do sistema, com foco em usabilidade e prevenção de erros.

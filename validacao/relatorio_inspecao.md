@@ -89,6 +89,7 @@ O processo foi dividido nas seguintes fases:
 ### Tela 2:
 - **H3. Controle e liberdade do usuário** (Severidade: 3)  
   - **Análise**: Há um link "voltar", mas a opção de visualizar senhas enquanto digita melhoraria a experiência.
+  - **Sugestão**: Implementar a opção de visualizar senha.
 
 - **H5. Ajudar os usuários a reconhecer, diagnosticar e corrigir erros** (Severidade: 3)  
   - **Análise**: Não há validação em tempo real para campos como e-mail ou senha.

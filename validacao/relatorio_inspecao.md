@@ -237,7 +237,7 @@ O processo de inspeção foi dividido em três fases:
 - **Heurística Violada:** H5 - Prevenção de erros.
 - **Grau de Severidade:** Alta.
 - **Recomendação:** Inserir exemplos ou placeholders nos campos de email e senha para orientar o preenchimento correto.
-- 
+  
 ---
 
 - **Local do Problema:** Sistema de feedback.

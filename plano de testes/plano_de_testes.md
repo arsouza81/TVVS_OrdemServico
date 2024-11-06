@@ -4,6 +4,532 @@
 
 <p align = justify><b>Descrição:</b> Cada caso de teste representa uma situação particular ou uma funcionalidade específica do Sistema de Ordem de Serviço que deve ser analisada detalhadamente. Através desses testes, verifica-se o comportamento do sistema em diferentes cenários, garantindo que ele esteja executando corretamente as tarefas para as quais foi projetado. Essa abordagem é essencial para identificar possíveis erros ou falhas, permitindo que sejam feitos ajustes antes que o sistema seja utilizado em um ambiente de produção. Assim, os casos de teste são uma ferramenta importante para assegurar que o sistema atende aos requisitos definidos e funciona de acordo com as expectativas dos usuários.</p>
 
+<table border="1">
+  <tr>
+    <th>Identificador</th>
+    <td>CT-01</td>
+  </tr>
+  <tr>
+    <th>Caso de teste</th>
+    <td>Finalizar o cadastro de solicitação de serviço</td>
+  </tr>
+  <tr>
+    <th>Descrição</th>
+    <td>Verificar se os campos do cadastro de solicitação de serviço foram preenchidos corretamente.</td>
+  </tr>
+  <tr>
+    <th>Entradas</th>
+    <td>. Nome: "Leilane Cardoso".<br>. Email: "leilCardoso@ufam.edu.br".<br>. Siape: "1234567".<br>. Bloco: "C".<br>. Sala: "301".<br>. Descrição do Problema: "Computador reiniciando automaticamente"</td>
+  </tr>
+  <tr>
+    <th>Resultados Esperados</th>
+    <td>. Se os campos estiverem preenchidos corretamente, o cadastro da solicitação é realizado com sucesso.<br>. Se os campos não estiverem preenchidos corretamente, uma mensagem de erro deve ser exibida informando o campo e o erro a serem corrigidos.</td>
+  </tr>
+  <tr>
+    <th>Critérios para Aprovação/Rejeição</th>
+    <td>. Aprovação: O cadastro da solicitação de serviço é realizado com sucesso.<br>. Rejeição: O cadastro da solicitação de serviço não é realizado e o sistema exibe uma mensagem informando o erro.</td>
+  </tr>
+  <tr>
+    <th>Recursos para o Caso de Teste</th>
+    <td>. Ambiente de Teste: Navegador e banco de dados do sistema. . Ferramentas: XUnit</td>
+  </tr>
+  <tr>
+    <th>Restrições de Uso</th>
+    <td>. Todos os campos devem ser preenchidos corretamente.</td>
+  </tr>
+  <tr>
+    <th>Dependências</th>
+    <td>Não se aplica</td>
+  </tr>
+  <tr>
+    <th>Observações Adicionais</th>
+    <td>. Realizar testes com diversos dados para garantir a eficácia e a cobertura dos testes.<br>. Documentar quaisquer anomalias ou comportamentos inesperados.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1">
+  <tr>
+    <th>Identificador</th>
+    <td>CT-02</td>
+  </tr>
+  <tr>
+    <th>Caso de teste</th>
+    <td>Validar o campo nome para finalizar o cadastro de solicitação de serviço</td>
+  </tr>
+  <tr>
+    <th>Descrição</th>
+    <td>Verificar se o nome do solicitante é informado corretamente, sendo composto apenas por letras</td>
+  </tr>
+  <tr>
+    <th>Entradas</th>
+    <td>. Nome: "Leil4ne Cardoso"</td>
+  </tr>
+  <tr>
+    <th>Resultados Esperados</th>
+    <td>. Se o nome for composto apenas por letras, o cadastro da solicitação é realizado com sucesso.<br>. Se o nome não for composto apenas por letras, uma mensagem de erro deve ser exibida informando o erro.</td>
+  </tr>
+  <tr>
+    <th>Critérios para Aprovação/Rejeição</th>
+    <td>. Aprovação: O cadastro da solicitação de serviço é realizado com sucesso.<br>. Rejeição: O cadastro da solicitação de serviço não é realizado e o sistema exibe uma mensagem informando o erro.</td>
+  </tr>
+  <tr>
+    <th>Recursos para o Caso de Teste</th>
+    <td>. Ambiente de Teste: Navegador e banco de dados do sistema.<br>. Ferramentas: XUnit</td>
+  </tr>
+  <tr>
+    <th>Restrições de Uso</th>
+    <td>. O nome é um campo obrigatório e deve conter apenas letras, não pode ter dígitos, caracteres especiais</td>
+  </tr>
+  <tr>
+    <th>Dependências</th>
+    <td>Não se aplica</td>
+  </tr>
+  <tr>
+    <th>Observações Adicionais</th>
+    <td>. Realizar testes com diferentes sequências de nomes para garantir a eficácia e a cobertura dos testes.<br>. Documentar quaisquer anomalias ou comportamentos inesperados.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1">
+  <tr>
+    <th>Identificador</th>
+    <td>CT-03</td>
+  </tr>
+  <tr>
+    <th>Caso de teste</th>
+    <td>Validar o campo nome para finalizar o cadastro de solicitação de serviço</td>
+  </tr>
+  <tr>
+    <th>Descrição</th>
+    <td>Verificar se o nome do solicitante é informado corretamente, sendo composto apenas por letras</td>
+  </tr>
+  <tr>
+    <th>Entradas</th>
+    <td>. Nome: "Leil#ne Cardoso"</td>
+  </tr>
+  <tr>
+    <th>Resultados Esperados</th>
+    <td>. Se o nome for composto apenas por letras, o cadastro da solicitação é realizado com sucesso.<br>. Se o nome não for composto apenas por letras, uma mensagem de erro deve ser exibida informando o erro.</td>
+  </tr>
+  <tr>
+    <th>Critérios para Aprovação/Rejeição</th>
+    <td>. Aprovação: O cadastro da solicitação de serviço é realizado com sucesso.<br>. Rejeição: O cadastro da solicitação de serviço não é realizado e o sistema exibe uma mensagem informando o erro.</td>
+  </tr>
+  <tr>
+    <th>Recursos para o Caso de Teste</th>
+    <td>. Ambiente de Teste: Navegador e banco de dados do sistema.<br>. Ferramentas: XUnit</td>
+  </tr>
+  <tr>
+    <th>Restrições de Uso</th>
+    <td>. O nome é um campo obrigatório e deve conter apenas letras, não pode ter dígitos, caracteres especiais</td>
+  </tr>
+  <tr>
+    <th>Dependências</th>
+    <td>Não se aplica</td>
+  </tr>
+  <tr>
+    <th>Observações Adicionais</th>
+    <td>. Realizar testes com diferentes sequências de nomes para garantir a eficácia e a cobertura dos testes.<br>. Documentar quaisquer anomalias ou comportamentos inesperados.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1">
+  <tr>
+    <th>Identificador</th>
+    <td>CT-04</td>
+  </tr>
+  <tr>
+    <th>Caso de teste</th>
+    <td>Validar o campo nome para finalizar o cadastro de solicitação de serviço</td>
+  </tr>
+  <tr>
+    <th>Descrição</th>
+    <td>Verificar se o nome do solicitante é informado corretamente, sendo composto apenas por letras</td>
+  </tr>
+  <tr>
+    <th>Entradas</th>
+    <td>Nome: "    "</td>
+  </tr>
+  <tr>
+    <th>Resultados Esperados</th>
+    <td>. Se o nome for composto apenas por letras, o cadastro da solicitação é realizado com sucesso.<br>. Se o nome não for composto apenas por letras, uma mensagem de erro deve ser exibida informando o erro.</td>
+  </tr>
+  <tr>
+    <th>Critérios para Aprovação/Rejeição</th>
+    <td>. Aprovação: O cadastro da solicitação de serviço é realizado com sucesso.<br>. Rejeição: O cadastro da solicitação de serviço não é realizado e o sistema exibe uma mensagem informando o erro.</td>
+  </tr>
+  <tr>
+    <th>Recursos para o Caso de Teste</th>
+    <td>. Ambiente de Teste: Navegador e banco de dados do sistema.<br>. Ferramentas: XUnit</td>
+  </tr>
+  <tr>
+    <th>Restrições de Uso</th>
+    <td>O nome é um campo obrigatório e deve conter apenas letras, não podendo ter dígitos e caracteres especiais</td>
+  </tr>
+  <tr>
+    <th>Dependências</th>
+    <td>Não se aplica</td>
+  </tr>
+  <tr>
+    <th>Observações Adicionais</th>
+    <td>. Realizar testes com diferentes sequências de nomes para garantir a eficácia e a cobertura dos testes.<br>. Documentar quaisquer anomalias ou comportamentos inesperados.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1">
+  <tr>
+    <th>Identificador</th>
+    <td>CT-05</td>
+  </tr>
+  <tr>
+    <th>Caso de teste</th>
+    <td>Validar o campo email para finalizar o cadastro de solicitação de serviço</td>
+  </tr>
+  <tr>
+    <th>Descrição</th>
+    <td>Verificar se o email do solicitante é informado corretamente, seguindo o domínio padrão da UFAM (nome@ufam.edu.br)</td>
+  </tr>
+  <tr>
+    <th>Entradas</th>
+    <td>Email: "leilCardoso@gmail.com"</td>
+  </tr>
+  <tr>
+    <th>Resultados Esperados</th>
+    <td>. Se o email seguir o domínio padrão da UFAM (nome@ufam.edu.br), o cadastro da solicitação é realizado com sucesso.<br>. Se o email não seguir o domínio padrão da UFAM (nome@ufam.edu.br), uma mensagem de erro deve ser exibida informando o erro.</td>
+  </tr>
+  <tr>
+    <th>Critérios para Aprovação/Rejeição</th>
+    <td>. Aprovação: O cadastro da solicitação de serviço é realizado com sucesso.<br>. Rejeição: O cadastro da solicitação de serviço não é realizado e o sistema exibe uma mensagem informando o erro.</td>
+  </tr>
+  <tr>
+    <th>Recursos para o Caso de Teste</th>
+    <td>Ambiente de Teste: Navegador e banco de dados do sistema.<br>. Ferramentas: XUnit</td>
+  </tr>
+  <tr>
+    <th>Restrições de Uso</th>
+    <td>O email é um campo obrigatório e deve seguir o domínio padrão da UFAM (nome@ufam.edu.br)</td>
+  </tr>
+  <tr>
+    <th>Dependências</th>
+    <td>O caso de teste "Validar o campo email para finalizar o cadastro de solicitação de serviço" depende do caso de teste "Validar o campo nome para finalizar o cadastro de solicitação de serviço".</td>
+  </tr>
+  <tr>
+    <th>Observações Adicionais</th>
+    <td>. Realizar testes com diferentes domínios de emails para garantir a eficácia e a cobertura dos testes.<br>. Documentar quaisquer anomalias ou comportamentos inesperados.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1">
+  <tr>
+    <th>Identificador</th>
+    <td>CT-06</td>
+  </tr>
+  <tr>
+    <th>Caso de teste</th>
+    <td>Validar o campo email para finalizar o cadastro de solicitação de serviço</td>
+  </tr>
+  <tr>
+    <th>Descrição</th>
+    <td>Verificar se o email do solicitante é informado corretamente, seguindo o domínio padrão da UFAM (nome@ufam.edu.br)</td>
+  </tr>
+  <tr>
+    <th>Entradas</th>
+    <td>Email: " "</td>
+  </tr>
+  <tr>
+    <th>Resultados Esperados</th>
+    <td>. Se o email seguir o domínio padrão da UFAM (nome@ufam.edu.br), o cadastro da solicitação é realizado com sucesso.<br>. Se o email não seguir o domínio padrão da UFAM (nome@ufam.edu.br), uma mensagem de erro deve ser exibida informando o erro.</td>
+  </tr>
+  <tr>
+    <th>Critérios para Aprovação/Rejeição</th>
+    <td>. Aprovação: O cadastro da solicitação de serviço é realizado com sucesso.<br>. Rejeição: O cadastro da solicitação de serviço não é realizado e o sistema exibe uma mensagem informando o erro.</td>
+  </tr>
+  <tr>
+    <th>Recursos para o Caso de Teste</th>
+    <td>Ambiente de Teste: Navegador e banco de dados do sistema. Ferramentas: XUnit</td>
+  </tr>
+  <tr>
+    <th>Restrições de Uso</th>
+    <td>O email é um campo obrigatório e deve seguir o domínio padrão da UFAM (nome@ufam.edu.br)</td>
+  </tr>
+  <tr>
+    <th>Dependências</th>
+    <td>O caso de teste "Validar o campo email para finalizar o cadastro de solicitação de serviço" depende do caso de teste "Validar o campo nome para finalizar o cadastro de solicitação de serviço".</td>
+  </tr>
+  <tr>
+    <th>Observações Adicionais</th>
+    <td>. Realizar testes com diferentes domínios de emails para garantir a eficácia e a cobertura dos testes.<br>. Documentar quaisquer anomalias ou comportamentos inesperados.</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1">
+    <tr>
+        <th>Identificador</th>
+        <td>CT-07</td>
+    </tr>
+    <tr>
+        <th>Caso de teste</strong></th>
+        <td>Validar o campo siape para finalizar o cadastro de solicitação de serviço</td>
+    </tr>
+    <tr>
+        <th>Descrição</th>
+        <td>Verificar se o siape do solicitante é informado corretamente, sendo composto por 7 dígitos (0-9)</td>
+    </tr>
+    <tr>
+        <th>Entradas</th>
+        <td>Siape: "123d567"</td>
+    </tr>
+    <tr>
+        <th>Resultados Esperados</th>
+        <td>
+            . Se o siape for composto, exatamente, por 7 dígitos (0-9), o cadastro da solicitação é realizado com sucesso.<br>. Se o siape não for composto por apenas dígitos, ou for composto por mais de 7 dígitos, ou for composto por menos de 7 dígitos, uma mensagem de erro deve ser exibida informando o erro.
+        </td>
+    </tr>
+    <tr>
+        <th>Critérios para Aprovação/Rejeição</th>
+        <td>
+            . Aprovação: O cadastro da solicitação de serviço é realizado com sucesso.<br>. Rejeição: O cadastro da solicitação de serviço não é realizado e o sistema exibe uma mensagem informando o erro.
+        </td>
+    </tr>
+    <tr>
+        <th>Recursos para o Caso de Teste</th>
+        <td>
+            . Ambiente de Teste: Navegador e banco de dados do sistema. <br>. Ferramentas: XUnit
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Restrições de Uso</strong></td>
+        <td>O siape é um campo obrigatório e deve ser composto por 7 dígitos (0-9).</td>
+    </tr>
+    <tr>
+        <th>Dependências</th>
+        <td>O caso de teste "Validar o campo siape para finalizar o cadastro de solicitação de serviço" depende do caso de teste "Validar o campo email para finalizar o cadastro de solicitação de serviço".</td>
+    </tr>
+    <tr>
+        <th>Observações Adicionais</th>
+        <td>. Realizar testes com diferentes sequências de dígitos, letras e caracteres especiais para garantir a eficácia e a cobertura dos testes.<br>. Documentar quaisquer anomalias ou comportamentos inesperados.</td>
+    </tr>
+</table>
+
+<br>
+
+<table border="1">
+    <tr>
+        <th>Identificador</th>
+        <td>CT-08</td>
+    </tr>
+    <tr>
+        <th>Caso de teste</th>
+        <td>Validar o campo siape para finalizar o cadastro de solicitação de serviço</td>
+    </tr>
+    <tr>
+        <th>Descrição</th>
+        <td>Verificar se o siape do solicitante é informado corretamente, sendo composto por 7 dígitos (0-9)</td>
+    </tr>
+    <tr>
+        <th>Entradas</th>
+        <td>Siape: "!234567"</td>
+    </tr>
+    <tr>
+        <th>Resultados Esperados</th>
+        <td>
+            . Se o siape for composto, exatamente, por 7 dígitos (0-9), o cadastro da solicitação é realizado com sucesso.<br>. Se o siape não for composto por apenas dígitos, ou for composto por mais de 7 dígitos, ou for composto por menos de 7 dígitos, uma mensagem de erro deve ser exibida informando o erro.
+        </td>
+    </tr>
+    <tr>
+        <th>Critérios para Aprovação/Rejeição</th>
+        <td>
+            . Aprovação: O cadastro da solicitação de serviço é realizado com sucesso.<br>. Rejeição: O cadastro da solicitação de serviço não é realizado e o sistema exibe uma mensagem informando o erro.
+        </td>
+    </tr>
+    <tr>
+        <th>Recursos para o Caso de Teste</th>
+        <td>
+            . Ambiente de Teste: Navegador e banco de dados do sistema.<br>. Ferramentas: XUnit
+        </td>
+    </tr>
+    <tr>
+       <th>Restrições de Uso</th>
+        <td>O siape é um campo obrigatório e deve ser composto por 7 dígitos (0-9).</td>
+    </tr>
+    <tr>
+        <th>Dependências</th>
+        <td>O caso de teste "Validar o campo siape para finalizar o cadastro de solicitação de serviço" depende do caso de teste "Validar o campo email para finalizar o cadastro de solicitação de serviço".</td>
+    </tr>
+    <tr>
+        <th>Observações Adicionais</th>
+        <td>. Realizar testes com diferentes sequências de dígitos, letras e caracteres especiais para garantir a eficácia e a cobertura dos testes.<br>. Documentar quaisquer anomalias ou comportamentos inesperados.</td>
+    </tr>
+</table>
+
+<br>
+
+<table border="1">
+    <tr>
+        <th>Identificador</th>
+        <td>CT-09</td>
+    </tr>
+    <tr>
+        <th>Caso de teste</th>
+        <td>Validar o campo siape para finalizar o cadastro de solicitação de serviço</td>
+    </tr>
+    <tr>
+        <th>Descrição</th>
+        <td>Verificar se o siape do solicitante é informado corretamente, sendo composto por 7 dígitos (0-9)</td>
+    </tr>
+    <tr>
+        <th>Entradas</th>
+        <td>Siape: "123456"</td>
+    </tr>
+    <tr>
+        <th>Resultados Esperados</th>
+        <td>
+            . Se o siape for composto, exatamente, por 7 dígitos (0-9), o cadastro da solicitação é realizado com sucesso.<br>. Se o siape não for composto por apenas dígitos, ou for composto por mais de 7 dígitos, ou for composto por menos de 7 dígitos, uma mensagem de erro deve ser exibida informando o erro.
+        </td>
+    </tr>
+    <tr>
+        <th>Critérios para Aprovação/Rejeição</th>
+        <td>
+            . Aprovação: O cadastro da solicitação de serviço é realizado com sucesso.<br>. Rejeição: O cadastro da solicitação de serviço não é realizado e o sistema exibe uma mensagem informando o erro.
+        </td>
+    </tr>
+    <tr>
+        <th>Recursos para o Caso de Teste</th>
+        <td>
+            . Ambiente de Teste: Navegador e banco de dados do sistema.<br>. Ferramentas: XUnit.
+        </td>
+    </tr>
+    <tr>
+        <th>Restrições de Uso</th>
+        <td>O siape é um campo obrigatório e deve ser composto por 7 dígitos (0-9).</td>
+    </tr>
+    <tr>
+        <th>Dependências</th>
+        <td>O caso de teste "Validar o campo siape para finalizar o cadastro de solicitação de serviço" depende do caso de teste "Validar o campo email para finalizar o cadastro de solicitação de serviço".</td>
+    </tr>
+    <tr>
+        <th>Observações Adicionais</th>
+        <td>. Realizar testes com diferentes sequências de dígitos, letras e caracteres especiais para garantir a eficácia e a cobertura dos testes.<br>. Documentar quaisquer anomalias ou comportamentos inesperados.</td>
+    </tr>
+</table>
+
+<br>
+
+<table border="1">
+    <tr>
+        <th>Identificador</th>
+        <td>CT-10</td>
+    </tr>
+    <tr>
+        <th>Caso de teste</th>
+        <td>Validar o campo siape para finalizar o cadastro de solicitação de serviço</td>
+    </tr>
+    <tr>
+        <th>Descrição</th>
+        <td>Verificar se o siape do solicitante é informado corretamente, sendo composto por 7 dígitos (0-9)</td>
+    </tr>
+    <tr>
+        <th>Entradas</th>
+        <td>Siape: "12345678"</td>
+    </tr>
+    <tr>
+        <th>Resultados Esperados</th>
+        <td>
+            . Se o siape for composto, exatamente, por 7 dígitos (0-9), o cadastro da solicitação é realizado com sucesso.<br>. Se o siape não for composto por apenas dígitos, ou for composto por mais de 7 dígitos, ou for composto por menos de 7 dígitos, uma mensagem de erro deve ser exibida informando o erro.
+        </td>
+    </tr>
+    <tr>
+        <th>Critérios para Aprovação/Rejeição</th>
+        <td>
+            . Aprovação: O cadastro da solicitação de serviço é realizado com sucesso.<br>. Rejeição: O cadastro da solicitação de serviço não é realizado e o sistema exibe uma mensagem informando o erro.
+        </td>
+    </tr>
+    <tr>
+        <th>Recursos para o Caso de Teste</th>
+        <td>
+            . Ambiente de Teste: Navegador e banco de dados do sistema.<br>. Ferramentas: XUnit.
+        </td>
+    </tr>
+    <tr>
+        <th>Restrições de Uso</th>
+        <td>O siape é um campo obrigatório e deve ser composto por 7 dígitos (0-9).</td>
+    </tr>
+    <tr>
+        <th>Dependências</th>
+        <td>O caso de teste "Validar o campo siape para finalizar o cadastro de solicitação de serviço" depende do caso de teste "Validar o campo email para finalizar o cadastro de solicitação de serviço".</td>
+    </tr>
+    <tr>
+        <th>Observações Adicionais</th>
+        <td>. Realizar testes com diferentes sequências de dígitos, letras e caracteres especiais para garantir a eficácia e a cobertura dos testes.<br>. Documentar quaisquer anomalias ou comportamentos inesperados.</td>
+    </tr>
+</table>
+
+<br>
+
+<table border="1">
+    <tr>
+        <th>Identificador</th>
+        <td>CT-11</td>
+    </tr>
+    <tr>
+        <th>Caso de teste</th>
+        <td>Validar o campo siape para finalizar o cadastro de solicitação de serviço</td>
+    </tr>
+    <tr>
+        <th>Descrição</th>
+        <td>Verificar se o siape do solicitante é informado corretamente, sendo composto por 7 dígitos (0-9)</td>
+    </tr>
+    <tr>
+        <th>Entradas</th>
+        <td>Siape: "  "</td>
+    </tr>
+    <tr>
+        <th>Resultados Esperados</th>
+        <td>
+            . Se o siape for composto, exatamente, por 7 dígitos (0-9), o cadastro da solicitação é realizado com sucesso.<br>. Se o siape não for composto por apenas dígitos, ou for composto por mais de 7 dígitos, ou for composto por menos de 7 dígitos, uma mensagem de erro deve ser exibida informando o erro.
+        </td>
+    </tr>
+    <tr>
+        <th>Critérios para Aprovação/Rejeição</th>
+        <td>
+            . Aprovação: O cadastro da solicitação de serviço é realizado com sucesso.<br>. Rejeição: O cadastro da solicitação de serviço não é realizado e o sistema exibe uma mensagem informando o erro.
+        </td>
+    </tr>
+    <tr>
+        <th>Recursos para o Caso de Teste</th>
+        <td>
+            . Ambiente de Teste: Navegador e banco de dados do sistema.<br>. Ferramentas: XUnit
+        </td>
+    </tr>
+    <tr>
+        <th>Restrições de Uso</th>
+        <td>O siape é um campo obrigatório e deve ser composto por 7 dígitos (0-9).</td>
+    </tr>
+    <tr>
+        <th>Dependências</th>
+        <td>O caso de teste "Validar o campo siape para finalizar o cadastro de solicitação de serviço" depende do caso de teste "Validar o campo email para finalizar o cadastro de solicitação de serviço".</td>
+    </tr>
+    <tr>
+        <th>Observações Adicionais</th>
+        <td>. Realizar testes com diferentes sequências de dígitos, letras e caracteres especiais para garantir a eficácia e a cobertura dos testes.<br>. Documentar quaisquer anomalias ou comportamentos inesperados.</td>
+    </tr>
+</table>
+
+<br>
+
+
 ## 2. Especificação de Entradas, Resultados Esperados e Casos de Testes
 
 <p align = justify><b>Descrição:</b> Esta seção abordará em detalhes as diferentes entradas que o sistema deverá processar, especificando os resultados esperados para cada uma dessas entradas ao serem analisadas. O objetivo é descrever como o sistema deve responder em cada situação prevista, garantindo que o comportamento seja conforme esperado. Para alcançar essa validação de forma eficiente, será aplicada a técnica de particionamento por classes de equivalência.</p>

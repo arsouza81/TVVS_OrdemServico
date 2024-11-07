@@ -36,6 +36,10 @@
 <h2>Atividades de Validação</h2>
 <p>Essa etapa será responsável por realizar atividades de validação para identificar e documentar, utilizando o método de avaliação Heurística, os problemas de usabilidade encontrados no Sistema Ordem de Serviço.</p>
 <p>Está disponível em: <a href="https://github.com/arsouza81/TVVS_OrdemServico/tree/main/validacao">Atividades de Validação</a></p>
+
+<h2>Plano de testes</h2>
+<p>Essa etapa será essencial para o desenvolvimento do sistema de Ordem de Serviço, pois ela define uma estratégia estruturada para a validação de todas as funcionalidades e requisitos do software, garantindo que ele funcione conforme o esperado. Esse documento descreve os tipos de testes a serem realizados, como testes funcionais, além de especificar os recursos, prazos e responsáveis por cada etapa. A importância do plano de testes está na sua capacidade de organizar o processo de validação, reduzindo riscos e identificando possíveis falhas antes da implementação. Dessa forma, o plano contribui para assegurar a qualidade e confiabilidade do sistema, atendendo às necessidades dos usuários e minimizando problemas após o lançamento.</p>
+<p>Está disponível em: <a href="https://github.com/arsouza81/TVVS_OrdemServico/blob/main/plano%20de%20testes/plano_de_testes.md">Plano de testes</a></p>
 <br>
 <br>
 

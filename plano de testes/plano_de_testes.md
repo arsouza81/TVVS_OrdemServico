@@ -847,6 +847,9 @@
 
 ## 3. Abordagem a ser utilizada
 
+<p align = justify>Nesta seção apresentaremos as tabelas de classes de quivalência elaboradas para cada funcionalidade, juntamente com a tabela dos casos de teste que foram especificados anteriormente.</p>
+
+- Cadastro de Solicitações de Serviços:
 
 <table border="1">
   <tr> 
@@ -1068,4 +1071,41 @@
     <td>Falha no cadastro de solicitação de serviço, campo descrição do problema é obrigatório</td>
   </tr>
 </table>
+
+- Login da Gerência:
+
+| Condição de Entrada | Classe válida                                                                 | Inválida                                  | Inválida                                       | Inválida                              | Inválida         |
+|---------------------|------------------------------------------------------------------------------|-------------------------------------------|------------------------------------------------|---------------------------------------|------------------|
+| **Email**           | Email institucional com formato: `fulanodetal@ufam.edu.br` e registrado no sistema. (1) | Email fora do formato (2)                 | Email não encontrado no sistema/não registrado (3) | Email incompleto (4)                 | Campo vazio (5) |
+| **Senha**           | Senha com no mínimo 8 caracteres e correspondente ao email. (6)              | Senha com menos de 8 caracteres (7)       | Senha não encontrada no sistema (8)              | Campo vazio (9)                       | X               |
+
+---
+
+| **Caso de Teste ID** | **Classes** | **Entrada**                                        | **Resultado Esperado**                                                                                 |
+|----------------------|-------------|----------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| **CT-01**            | 1,6 (Válida) | Email e senha informados corretamente e registrados no sistema. | Login efetuado com sucesso no sistema.                                                                 |
+| **CT-02**            | 2,6 (Inválida) | E-mail fora do formato, senha correta.              | Falha de login, email fora do formato padrão de email institucional.                                   |
+| **CT-03**            | 3,6 (Inválida) | E-mail válido, mas não registrado no sistema, senha correta. | Falha de login, email não registrado no sistema.                                                       |
+| **CT-04**            | 4,6 (Inválida) | E-mail incompleto, senha correta.                  | Falha de login, email incompleto.                                                                     |
+| **CT-05**            | 5,6 (Inválida) | Campo de e-mail vazio, senha correta.              | Falha de login, email não informado.                                                                  |
+| **CT-06**            | 7,1 (Inválida) | E-mail válido e registrado, senha com menos de 8 caracteres | Falha de login, senha incompleta.                                                                     |
+| **CT-07**            | 8,1 (Inválida) | E-mail válido e registrado, senha incorreta ou diferente do cadastro | Falha de login, senha não encontrada no sistema.                                                      |
+| **CT-08**            | 9,1 (Inválida) | E-mail válido e registrado, campo de senha vazio   | Falha de login, senha não informada.                                                                  |
+
+
+- Busca de Protocolo do sistema:
+
+| Condição de Entrada      | Classe válida                                   | Inválida                               | Inválida                         | Inválida                           | Inválida                         |
+|--------------------------|-------------------------------------------------|----------------------------------------|----------------------------------|------------------------------------|----------------------------------|
+| **Código de Protocolo**  | Código com 8 caracteres e existente no sistema. (1) | Código inexistente no sistema/não encontrado (2) | Campo vazio (3)                | Código com mais de 8 caracteres (4) | Código com menos de 8 caracteres (5) |
+
+---
+
+| **Caso de Teste ID** | **Classe** | **Entrada**                                       | **Resultado Esperado**                                                                              |
+|----------------------|------------|---------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| **CT-01**            | 1          | Código com 8 caracteres e existente no sistema    | Busca de protocolo realizada com sucesso.                                                           |
+| **CT-02**            | 2          | Código com 8 caracteres, mas inexistente no sistema | Falha de busca, código não encontrado no sistema.                                                   |
+| **CT-03**            | 3          | Campo vazio                                       | Falha de busca, protocolo não informado para busca.                                                 |
+| **CT-04**            | 4          | Código com mais de 8 caracteres                    | Falha de busca, protocolo informado incorretamente: com mais de 8 caracteres.                       |
+| **CT-05**            | 5          | Código com menos de 8 caracteres                   | Falha de busca, protocolo informado incorretamente: com menos de 8 caracteres.                      |
 

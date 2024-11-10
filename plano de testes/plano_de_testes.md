@@ -678,7 +678,164 @@
 | **Observações Adicionais**  | - Realizar testes com diferentes emails e senhas para garantir a cobertura da funcionalidade.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
 
 
-  
+| Identificador               | CT-02                                                |
+|-----------------------------|------------------------------------------------------|
+| **Caso de Teste**           | Efetuar login com e-mail fora do formato institucional |
+| **Descrição**               | Verifique se o sistema exibe uma mensagem de erro ao tentar fazer login com e-mail fora do formato institucional. |
+| **Entradas**                | - E-mail: `anderson.souza@gmail.com`<br>- Senha: `12345678` |
+| **Resultados Esperados**    | - O sistema exibe uma mensagem de erro informando que o e-mail é fora do formato institucional. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O sistema exibe mensagem de erro sobre o formato incorreto do e-mail.<br>- **Rejeição**: O sistema aceita o e-mail ou exibe uma mensagem incorreta. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | - O e-mail não deve seguir o formato institucional. |
+| **Dependências**            | - Não há dependências.                               |
+| **Observações Adicionais**  | - Verificar se o sistema exibe mensagens de erro; se sim, analisar a clareza da mensagem de erro exibida ao usuário.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
+
+| Identificador               | CT-03                                                |
+|-----------------------------|------------------------------------------------------|
+| **Caso de Teste**           | Efetuar login com e-mail válido, mas não registrado  |
+| **Descrição**               | Verifique se o sistema exibe uma mensagem de erro ao tentar fazer login com um e-mail válido que não está registrado no sistema. |
+| **Entradas**                | - E-mail: `inexistente@ufam.edu.br`<br>- Senha: `12345678` |
+| **Resultados Esperados**    | - O sistema exibe uma mensagem de erro que o e-mail não foi encontrado no sistema. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O sistema exibe uma mensagem de erro sobre o e-mail não registrado.<br>- **Rejeição**: O sistema permite o login ou exibe uma mensagem incorreta. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | - O e-mail deve ser institucional, mas não ser registrado no sistema. |
+| **Dependências**            | - Não há dependências.                               |
+| **Observações Adicionais**  | - Verificar se o sistema exibe mensagens de erro; se sim, analisar a clareza da mensagem de erro exibida ao usuário.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
+
+| Identificador               | CT-04                                                |
+|-----------------------------|------------------------------------------------------|
+| **Caso de Teste**           | Efetuar login com e-mail incompleto                  |
+| **Descrição**               | Verifique se o sistema exibe uma mensagem de erro ao tentar fazer login com um e-mail institucional incompleto. |
+| **Entradas**                | - E-mail: `anderson.souza@ufam`<br>- Senha: `12345678` |
+| **Resultados Esperados**    | - O sistema exibe uma mensagem de erro informando que o e-mail está incompleto. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O sistema exibe mensagem de erro sobre o e-mail incompleto.<br>- **Rejeição**: O sistema aceita o e-mail ou exibe uma mensagem incorreta. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | - O e-mail deve estar incompleto e não registrado.   |
+| **Dependências**            | - Não há dependências.                               |
+| **Observações Adicionais**  | - Testar diferentes formatos de e-mails incompletos.<br>- Verificar se o sistema exibe mensagens de erro; se sim, analisar a clareza da mensagem de erro exibida ao usuário.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
+
+| Identificador               | CT-05                                                |
+|-----------------------------|------------------------------------------------------|
+| **Caso de Teste**           | Efetuar login com campo de e-mail vazio              |
+| **Descrição**               | Verifique se o sistema exibe uma mensagem de erro ao tentar fazer login sem preencher o campo de e-mail. |
+| **Entradas**                | - E-mail: vazio<br>- Senha: `12345678`               |
+| **Resultados Esperados**    | - O sistema exibe uma mensagem de erro solicitando o preenchimento do campo de e-mail. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O sistema exibe mensagem de erro sobre o e-mail não informado.<br>- **Rejeição**: O sistema permite o login ou exibe uma mensagem incorreta. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | - O campo de e-mail deve estar vazio.               |
+| **Dependências**            | - Não há dependências.                               |
+| **Observações Adicionais**  | - Testar senhas diferentes para garantir cobertura.<br>- Verificar se o sistema exibe mensagens de erro; se sim, analisar a clareza da mensagem de erro exibida ao usuário.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
+
+| Identificador               | CT-06                                                |
+|-----------------------------|------------------------------------------------------|
+| **Caso de Teste**           | Efetuar login com senha de menos de 8 caracteres     |
+| **Descrição**               | Verifique se o sistema exibe uma mensagem de erro ao tentar fazer login com uma senha com menos de 8 caracteres. |
+| **Entradas**                | - E-mail: `anderson.souza@ufam.edu.br`<br>- Senha: `123456` |
+| **Resultados Esperados**    | - O sistema exibe uma mensagem de erro informando que a senha deve ter no mínimo 8 caracteres. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O sistema exibe mensagem de erro sobre uma senha incompleta.<br>- **Rejeição**: O sistema permite o login ou exibe uma mensagem incorreta. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | - A senha deve ter menos de 8 caracteres.            |
+| **Dependências**            | - Não há dependências.                               |
+| **Observações Adicionais**  | - Testar senhas diferentes com menos de 8 caracteres para garantir cobertura.<br>- Verificar se o sistema exibe mensagens de erro; se sim, analisar a clareza da mensagem de erro exibida ao usuário.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
+
+| Identificador               | CT-07                                                |
+|-----------------------------|------------------------------------------------------|
+| **Caso de Teste**           | Efetuar login com senha não registrada no sistema    |
+| **Descrição**               | Verifique se o sistema exibe uma mensagem de erro ao tentar fazer login com uma senha incorreta. |
+| **Entradas**                | - E-mail: `anderson.souza@ufam.edu.br`<br>- Senha: `08765423` |
+| **Resultados Esperados**    | - O sistema exibe uma mensagem de erro informando que a senha não foi encontrada no sistema. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O sistema exibe mensagem de erro sobre a senha incorreta.<br>- **Rejeição**: O sistema permite o login ou exibe uma mensagem incorreta. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | - A senha deve ser diferente da cadastrada para o e-mail informado. |
+| **Dependências**            | - Não há dependências.                               |
+| **Observações Adicionais**  | - Testar senhas diferentes para garantir cobertura.<br>- Verificar se o sistema exibe mensagens de erro; se sim, analisar a clareza da mensagem de erro exibida ao usuário.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
+
+
+| Identificador               | CT-08                                                |
+|-----------------------------|------------------------------------------------------|
+| **Caso de Teste**           | Efetuar login com campo de senha vazio               |
+| **Descrição**               | Verifique se o sistema exibe uma mensagem de erro ao tentar fazer login sem preencher o campo de senha. |
+| **Entradas**                | - E-mail: `anderson.souza@ufam.edu.br`<br>- Senha: vazio |
+| **Resultados Esperados**    | - O sistema exibe uma mensagem de erro solicitando o preenchimento do campo de senha. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O sistema exibe mensagem de erro sobre a senha não informada.<br>- **Rejeição**: O sistema permite o login ou exibe uma mensagem incorreta. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | - O campo de senha deve estar vazio.                |
+| **Dependências**            | - Não há dependências.                               |
+| **Observações Adicionais**  | - Testar com diferentes e-mails para garantir cobertura.<br>- Verificar se o sistema exibe mensagens de erro; se sim, analisar a clareza da mensagem de erro exibida ao usuário.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
+
+- Busca de Protocolo:
+
+| Identificador               | CT-01                                                |
+|-----------------------------|------------------------------------------------------|
+| **Caso de Teste**           | Busca de Protocolo da Solicitação de Serviço        |
+| **Descrição**               | Verificar se o código de protocolo é aplicado corretamente com 8 caracteres e se este existe no sistema. |
+| **Entradas**                | Código de Protocolo Válido: `L578MQ04`               |
+| **Resultados Esperados**    | - Com o código `L578MQ04`, a busca da solicitação de serviço é realizada com sucesso no sistema e exibida ao usuário. <br> - Código inválido exibe mensagem de erro. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O código é encontrado e a solicitação cadastrada é exibida ao usuário.<br>- **Rejeição**: O sistema não encontra o código, exibe erro e não exibe resultados. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador e Banco de Dados do Sistema.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | - O código deve conter exatamente 8 caracteres.<br>- O código deve estar registrado no sistema. |
+| **Dependências**            | O caso de teste "Busca de Protocolo da Solicitação de Serviço" depende do caso de teste "Finalizar o Cadastro de Solicitação de Serviço". |
+| **Observações Adicionais**  | - Realizar testes com diferentes códigos, para garantir a cobertura.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
+
+| Identificador               | CT-02                                                |
+|-----------------------------|------------------------------------------------------|
+| **Caso de Teste**           | Busca de Protocolo da Solicitação de Serviço com Código Inexistente |
+| **Descrição**               | Verificar se o sistema responde corretamente ao tentar buscar um protocolo de 8 caracteres que não está registrado no sistema. |
+| **Entradas**                | Código de Protocolo Inválido: `BHDSSAA`               |
+| **Resultados Esperados**    | Exibir mensagem de erro indicando que o código não foi encontrado no sistema. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O sistema exibe uma mensagem clara indicando que o código não foi encontrado.<br>- **Rejeição**: O sistema realiza a busca e exibe resultados incorretos. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador e Banco de Dados do Sistema.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | - O código deve conter exatamente 8 caracteres.<br>- O código testado não deve estar registrado no sistema. |
+| **Dependências**            | Não há dependências. |
+| **Observações Adicionais**  | - Verificar a clareza e o conteúdo da mensagem de erro exibida ao usuário.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
+
+| Identificador               | CT-03                                                |
+|-----------------------------|------------------------------------------------------|
+| **Caso de Teste**           | Busca de Protocolo da Solicitação de Serviço com Campo Vazio |
+| **Descrição**               | Verificar se o sistema responde corretamente ao tentar buscar uma solicitação sem informar o código de protocolo. |
+| **Entradas**                | Código de Protocolo: Campo deixado em branco. |
+| **Resultados Esperados**    | Exibir mensagem de erro solicitando o preenchimento do campo de código de protocolo. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O sistema não realiza a busca e exibe uma mensagem clara informando a necessidade de preenchimento do campo.<br>- **Rejeição**: O sistema permite a busca sem código ou exibe mensagem incorreta. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador e Banco de Dados do Sistema.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | O campo de código de protocolo deve estar vazio. |
+| **Dependências**            | Não há dependências. |
+| **Observações Adicionais**  | - Avaliar a clareza da mensagem exibida ao usuário.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
+
+| Identificador               | CT-04                                                |
+|-----------------------------|------------------------------------------------------|
+| **Caso de Teste**           | Busca de Protocolo da Solicitação de Serviço com Código de Mais de 8 Caracteres |
+| **Descrição**               | Verificar se o sistema responde corretamente ao tentar buscar uma solicitação com código de protocolo contendo mais de 8 caracteres. |
+| **Entradas**                | Código de Protocolo: `L123AB4567` |
+| **Resultados Esperados**    | Exibir mensagem de erro informando que o código de protocolo deve ter exatamente 8 caracteres. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O sistema exibe uma mensagem clara sobre o formato incorreto do código.<br>- **Rejeição**: O sistema permite a busca ou exibe uma mensagem incorreta. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador e Banco de Dados do Sistema.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | O código de protocolo deve conter mais de 8 caracteres. |
+| **Dependências**            | Não há dependências. |
+| **Observações Adicionais**  | - Avaliar a clareza da mensagem exibida ao usuário.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
+
+| Identificador               | CT-05                                                |
+|-----------------------------|------------------------------------------------------|
+| **Caso de Teste**           | Busca de Protocolo da Solicitação de Serviço com Código de Menos de 8 Caracteres |
+| **Descrição**               | Verificar se o sistema responde corretamente ao tentar buscar uma solicitação com código de protocolo contendo menos de 8 caracteres. |
+| **Entradas**                | Código de Protocolo: `L12AB34` |
+| **Resultados Esperados**    | Exibir mensagem de erro informando que o código de protocolo deve ter exatamente 8 caracteres. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O sistema exibe uma mensagem clara sobre o formato incorreto do código.<br>- **Rejeição**: O sistema permite a busca ou exibe uma mensagem incorreta. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador e Banco de Dados do Sistema.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | O código de protocolo deve conter menos de 8 caracteres. |
+| **Dependências**            | Não há dependências. |
+| **Observações Adicionais**  | - Avaliar a clareza da mensagem exibida ao usuário.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
 
 
 ## 2. Especificação de Entradas, Resultados Esperados e Casos de Testes

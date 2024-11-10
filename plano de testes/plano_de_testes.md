@@ -132,6 +132,11 @@
 
 <p align = justify>Cada caso de teste representa uma situação particular ou uma funcionalidade específica do Sistema de Ordem de Serviço que deve ser analisada detalhadamente. Através desses testes, verifica-se o comportamento do sistema em diferentes cenários, garantindo que ele esteja executando corretamente as tarefas para as quais foi projetado. Essa abordagem é essencial para identificar possíveis erros ou falhas, permitindo que sejam feitos ajustes antes que o sistema seja utilizado em um ambiente de produção. Assim, os casos de teste são uma ferramenta importante para assegurar que o sistema atende aos requisitos definidos e funciona de acordo com as expectativas dos usuários.</p>
 
+<p align = justify>Abaixo vamos apresentar os casos de teste elaborados a partir das classes de equivalência feitas para cada funcionalidade, vamos separar os casos de teste por cada funcionalidade apresentada anteriormente. Para uma funcionalidade foi possível criar mais de 1 classe de equivalência e automaticamente os seus subcasos de teste:</p>
+
+- Cadastro de Solicitações de Serviços
+
+
 <table border="1">
   <tr>
     <th>Identificador</th>
@@ -656,6 +661,24 @@
 </table>
 
 <br>
+
+- Login da Gerência:
+
+
+| Identificador               | CT-01                                            |
+|-----------------------------|--------------------------------------------------|
+| **Caso de Teste**           | Efetuar o login da gerência do sistema           |
+| **Descrição**               | Verificar se o login da gerência no sistema é feito da forma correta, com os campos email e senha preenchidos e existentes no sistema. |
+| **Entradas**                | - Email Institucional válido: `anderson.souza@ufam.edu.br`<br>- Senha válida: `12345678` |
+| **Resultados Esperados**    | - Com o email `anderson.souza@ufam.edu.br` e a senha `12345678`, o cadastro do usuário é encontrado e é exibida a tela de acesso da gerência.<br>- Se os dados de login forem inseridos de forma incorreta, uma mensagem de erro deve ser exibida. |
+| **Critérios para Aprovação/Rejeição** | - **Aprovação**: O perfil é encontrado no sistema e é exibida ao usuário a tela de controle da gerência.<br>- **Rejeição**: O sistema não encontra o perfil, não exibe a tela de acesso e exibe mensagens de erro ao usuário. |
+| **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador e Banco de Dados do Sistema.<br>- **Ferramentas**: XUnit. |
+| **Restrições de Uso**       | - O email deve estar exatamente no formato institucional e deve ter sido registrado no sistema.<br>- A senha deve conter no mínimo 8 caracteres e deve estar relacionada com o email informado. |
+| **Dependências**            | - Não há dependências.                           |
+| **Observações Adicionais**  | - Realizar testes com diferentes emails e senhas para garantir a cobertura da funcionalidade.<br>- Documentar quaisquer anomalias ou comportamentos inesperados. |
+
+
+  
 
 
 ## 2. Especificação de Entradas, Resultados Esperados e Casos de Testes

@@ -15,6 +15,8 @@
 
 ## 2. Características do produto a serem testadas
 
+<p align=justify>O sistema Ordem de Serviço, é um sistema com funcionalidades básicas e objetivas, nesta parte do documento, vamos apresentar as funcionalidades classificadas para os testes, a equipe de testes desenvolveu os casos de teste na funcionalidades que julgaram mais críticas do sistema e estão descritas abaixo, juntamento com seus subcasos de testes.</p>
+
 - Cadastro de Solicitações de Serviços
   - Validação do campo Nome
   - Validação do campo Email
@@ -22,6 +24,14 @@
   - Validação do campo Bloco
   - Validação do campo Sala
   - Validação do campo Descrição do Problema
+
+- Login da Gerência
+  - Validação do Campo Email.
+  - Validação do Campo senha.
+
+
+- Busca de Protocolo no sistema
+  - Validação do código de protocolo para busca.
 
 ## 3. Abordagem a ser uitilizada
 

@@ -74,14 +74,24 @@
 
 ## 4. Itens a serem testados
 
-<p align = justify>Serão testados todos os campos do formulário de cadastro de solicitações de serviços, com o objetivo de verificar o fluxo para o processo de cadastro das solicitações a partir da:</p>
+<p align = justify>Serão testados todos os campos do formulário de cadastro de solicitações de serviços que é a primeira funcionalidade, com o objetivo de verificar o fluxo para o processo de cadastro das solicitações, após será testado todos os campos do login da Gerência, e por fim a funcionalidade de busca do sistema, abaixo apresentamos os tópicos a serem testados separadamente:</p>
 
-- Validação do campo Nome.
-- Validação do campo Email.
-- Validação do campo Siape.
-- Validação do campo Bloco.
-- Validação do campo Sala.
-- Validação do campo Descrição do Problema.
+- Cadastro de Solicitações de Serviços
+  - Validação do campo Nome
+  - Validação do campo Email
+  - Validação do campo Siape
+  - Validação do campo Bloco
+  - Validação do campo Sala
+  - Validação do campo Descrição do Problema
+
+- Login da Gerência
+  - Validação do Campo Email.
+  - Validação do Campo senha.
+
+
+- Busca de Protocolo no sistema
+  - Validação do código de protocolo para busca.
+
 
 ## 5. Cronograma para o Teste
 

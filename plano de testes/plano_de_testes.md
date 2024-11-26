@@ -669,8 +669,8 @@
 |-----------------------------|--------------------------------------------------|
 | **Caso de Teste**           | Efetuar o login da gerência do sistema           |
 | **Descrição**               | Verificar se o login da gerência no sistema é feito da forma correta, com os campos email e senha preenchidos e existentes no sistema. |
-| **Entradas**                | - Email Institucional válido: `anderson.souza@ufam.edu.br`<br>- Senha válida: `12345678` |
-| **Resultados Esperados**    | - Com o email `anderson.souza@ufam.edu.br` e a senha `12345678`, o cadastro do usuário é encontrado e é exibida a tela de acesso da gerência.<br>- Se os dados de login forem inseridos de forma incorreta, uma mensagem de erro deve ser exibida. |
+| **Entradas**                | - Email Institucional válido: `arsati@ufam.edu.br`<br>- Senha válida: `12345678` |
+| **Resultados Esperados**    | - Com o email `arsati@ufam.edu.br` e a senha `12345678`, o cadastro do usuário é encontrado e é exibida a tela de acesso da gerência.<br>- Se os dados de login forem inseridos de forma incorreta, uma mensagem de erro deve ser exibida. |
 | **Critérios para Aprovação/Rejeição** | - **Aprovação**: O perfil é encontrado no sistema e é exibida ao usuário a tela de controle da gerência.<br>- **Rejeição**: O sistema não encontra o perfil, não exibe a tela de acesso e exibe mensagens de erro ao usuário. |
 | **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador e Banco de Dados do Sistema.<br>- **Ferramentas**: XUnit. |
 | **Restrições de Uso**       | - O email deve estar exatamente no formato institucional e deve ter sido registrado no sistema.<br>- A senha deve conter no mínimo 8 caracteres e deve estar relacionada com o email informado. |
@@ -776,8 +776,8 @@
 |-----------------------------|------------------------------------------------------|
 | **Caso de Teste**           | Busca de Protocolo da Solicitação de Serviço        |
 | **Descrição**               | Verificar se o código de protocolo é aplicado corretamente com 8 caracteres e se este existe no sistema. |
-| **Entradas**                | Código de Protocolo Válido: `L578MQ04`               |
-| **Resultados Esperados**    | - Com o código `L578MQ04`, a busca da solicitação de serviço é realizada com sucesso no sistema e exibida ao usuário. <br> - Código inválido exibe mensagem de erro. |
+| **Entradas**                | Código de Protocolo Válido: `S8YRXJ07`               |
+| **Resultados Esperados**    | - Com o código `S8YRXJ07`, a busca da solicitação de serviço é realizada com sucesso no sistema e exibida ao usuário. <br> - Código inválido exibe mensagem de erro. |
 | **Critérios para Aprovação/Rejeição** | - **Aprovação**: O código é encontrado e a solicitação cadastrada é exibida ao usuário.<br>- **Rejeição**: O sistema não encontra o código, exibe erro e não exibe resultados. |
 | **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador e Banco de Dados do Sistema.<br>- **Ferramentas**: XUnit. |
 | **Restrições de Uso**       | - O código deve conter exatamente 8 caracteres.<br>- O código deve estar registrado no sistema. |

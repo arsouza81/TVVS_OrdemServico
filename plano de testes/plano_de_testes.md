@@ -682,7 +682,7 @@
 |-----------------------------|------------------------------------------------------|
 | **Caso de Teste**           | Efetuar login com e-mail fora do formato institucional |
 | **Descrição**               | Verifique se o sistema exibe uma mensagem de erro ao tentar fazer login com e-mail fora do formato institucional. |
-| **Entradas**                | - E-mail: `anderson.souza@gmail.com`<br>- Senha: `12345678` |
+| **Entradas**                | - E-mail: `arsati@gmail.com`<br>- Senha: `12345678` |
 | **Resultados Esperados**    | - O sistema exibe uma mensagem de erro informando que o e-mail é fora do formato institucional. |
 | **Critérios para Aprovação/Rejeição** | - **Aprovação**: O sistema exibe mensagem de erro sobre o formato incorreto do e-mail.<br>- **Rejeição**: O sistema aceita o e-mail ou exibe uma mensagem incorreta. |
 | **Recursos para o Caso de Teste** | - **Ambiente de Teste**: Navegador.<br>- **Ferramentas**: XUnit. |

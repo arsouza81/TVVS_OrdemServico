@@ -152,7 +152,7 @@
   </tr>
   <tr>
     <th>Entradas</th>
-    <td>. Nome: "Leilane Cardoso".<br>. Email: "leilCardoso@ufam.edu.br".<br>. Siape: "1234567".<br>. Bloco: "C".<br>. Sala: "301".<br>. Descrição do Problema: "Computador reiniciando automaticamente"</td>
+    <td>. Nome: "Anderson Souza".<br>. Email: "arsati@ufam.edu.br".<br>. Siape: "19639551".<br>. Bloco: "D".<br>. Sala: "310".<br>. Descrição do Problema: "Impressora travando com papel."</td>
   </tr>
   <tr>
     <th>Resultados Esperados</th>

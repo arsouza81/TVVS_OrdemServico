@@ -152,7 +152,7 @@
   </tr>
   <tr>
     <th>Entradas</th>
-    <td>. Nome: "Anderson Souza".<br>. Email: "arsati@ufam.edu.br".<br>. Siape: "19639551".<br>. Bloco: "D".<br>. Sala: "310".<br>. Descrição do Problema: "Impressora travando com papel."</td>
+    <td>. Nome: "Anderson Souza".<br>. Email: "arsdspg81@gmail.com".<br>. Siape: "19639551".<br>. Bloco: "D".<br>. Sala: "310".<br>. Descrição do Problema: "Impressora travando com papel."</td>
   </tr>
   <tr>
     <th>Resultados Esperados</th>

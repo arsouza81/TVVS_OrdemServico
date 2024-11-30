@@ -53,9 +53,9 @@
   </tr>
   <tr>
     <td><b>Estágio do Teste</b></td>
-    <td>(X) Unidade</td>
+    <td>( ) Unidade</td>
     <td>( ) Integração</td>
-    <td>( ) Sistema</td>
+    <td>(X) Sistema</td>
     <td>( ) Aceitação</td>
   </tr>
   <tr>

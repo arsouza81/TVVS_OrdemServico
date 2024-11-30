@@ -99,7 +99,7 @@
 <p align = justify>O planejamento temporal é fundamental para assegurar que cada fase do teste contribua para a identificação de possíveis problemas antes do lançamento do sistema. Com isso, o cronograma facilita o acompanhamento do progresso e permite ajustes quando necessário, garantindo que o sistema atenda a todos os requisitos de qualidade no prazo estabelecido. Além disso, ele ajuda a coordenar as equipes envolvidas, organizando as tarefas de modo que os recursos estejam disponíveis e as etapas possam ser realizadas sequencialmente ou em paralelo, conforme o plano do projeto. Dessa forma, o cronograma contribui diretamente para que o sistema de Ordem de Serviço seja entregue com eficiência, qualidade e dentro do período esperado.</p>
 
 - **Semana 1:** Revisão do plano de testes e preparação do ambiente.
-- **Semana 2-3:** Execução dos testes funcionais na funcionalidade de cadastro de solicitações de serviços.
+- **Semana 2-3:** Execução dos testes funcionais nas funcionalidades de cadastro de solicitações de serviços; Login da Gerência de TI e Consulta do andamento da solicitação de serviço.
 - **Semana 4:** Avaliação final, relatório de bugs e liberação para produção.
 
 ## 6. Pessoal responsável pelas diferentes atividades de teste
@@ -107,8 +107,8 @@
 <p align = justify>A lista dos testadores identifica detalhadamente os responsáveis por cada atividade ou etapa específica do processo de testes do sistema de Ordem de Serviço. Esse documento é fundamental para organizar e distribuir as tarefas entre a equipe de testes, garantindo que cada membro esteja ciente das suas atribuições e responsabilidades. A lista especifica quem estará encarregado de conduzir os testes funcionais, bem como os responsáveis pelo planejamento dos cenários de teste, execução dos scripts de teste automatizados e análise dos resultados obtidos.</p>
 <p align = justify>Além de definir a atuação individual, a lista facilita a coordenação do trabalho em equipe, assegurando que as atividades de teste ocorram de forma integrada e eficiente. Ela também possibilita uma visão clara de quem procurar em caso de dúvidas ou problemas em cada fase do processo de testes, promovendo a comunicação entre os membros e o alinhamento dos esforços. Dessa maneira, a lista dos testadores contribui para que o processo de validação do sistema ocorra de maneira organizada e dentro dos prazos estabelecidos, assegurando que todas as funcionalidades do sistema de Ordem de Serviço sejam testadas de forma completa e minuciosa.</p>
 
-- **Responsáveis por Testes Funcionais:** Anderson Rodrigues de Souza e Alicia Caldeira da Silva
-- **Responsável por Automação de Testes:** Rennan de Souza Alves
+- **Responsáveis por Testes Funcionais:** Rennan de Souza Alves e Alicia Caldeira da Silva
+- **Responsável por Automação de Testes:** Anderson Rodrigues de Souza
 - **Gerente de Testes:** Kassia Ramos Oliveira
 - **Analista de Qualidade:** Diandre Pires Bruce
 

@@ -44,7 +44,7 @@
   </tr>
   <tr>
     <td><b>Objetivo</b></td>
-    <td colspan=4 aling=justify>Verificar se o processo de cadastro de solicitação de serviços atende às especificações dos requisitos, validando os campos nome, email, siape, bloco, sala e descrição do problema do formulário de cadastro de ordem de serviço.</td>
+    <td colspan=4 aling=justify>O objetivo desta abordagem é verificar se as funcionalidades selecionadas atendem às especificações dos requisitos, como por exemplo, testar o processo de cadastro de solicitação de serviços (validando os campos nome, email, siape, bloco, sala e descrição do problema do formulário de cadastro de ordem de serviço), testar o processo de autenticação da gerência de TI para acessar as funcionalidades restristas do sistema (validando os campos email e senha), e testar o processo de consulta da solicitação de serviço pelo servidor solicitante a partir do protocolo recebido por email (validando o código de protocolo utilizado para a busca da solicitação de serviço).</td>
   </tr>
   <tr>
     <td><b>Técnica</b></td>
@@ -69,8 +69,8 @@
   </tr>
 </table>
 
-**Testes Funcionais:** Testar todo o fluxo do processo para o cadastro de solicitações de serviços, validando os campos nome, email, siape, bloco, sala e descrição do problema do formulário de cadastro de ordem de serviço. <br>
-**Ferramentas utilizadas:** XUnit (Teste de Unidade).
+**Testes Funcionais:** Testar todo o fluxo do processo para o cadastro de solicitações de serviços, validando os campos nome, email, siape, bloco, sala e descrição do problema do formulário de cadastro de ordem de serviço. Testar todo fluxo do processo de autenticação da gerência de TI para acessar as funcionalidades restristas do sistema, validando os campos email e senha. E testar o processo de consulta da solicitação de serviço pelo servidor solicitante a partir do protocolo recebido por email, validando o código de protocolo utilizado para a busca da solicitação de serviço. <br>
+**Ferramentas utilizadas:** Cypress.
 
 ## 4. Itens a serem testados
 

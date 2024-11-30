@@ -65,7 +65,7 @@
   </tr>
   <tr>
     <td><b>Responsáveis</b></td>
-    <td colspan=4>Equipe de Testes</td>
+    <td colspan=4>Gerente e Equipe de Testes</td>
   </tr>
 </table>
 
